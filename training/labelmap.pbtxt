@@ -1,0 +1,23 @@
+item {
+  id: 1
+  name: 'background'
+}
+item {
+  id: 2
+  name: 'box'
+}
+
+item {
+  id: 3
+  name: 'can'
+}
+
+item {
+  id: 4 
+  name: 'coffeecup'
+}
+
+item {
+  id:5
+  name: 'plasticbottle'
+}
