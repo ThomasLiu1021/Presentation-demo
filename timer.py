@@ -15,7 +15,9 @@ while True:
     # write the content
     r = requests.get(URL)
     open(input_path, 'wb').write(r.content)
-    #os.system("python Object_detection_image.py " + current_image_name)
+    command = 'python Object_detection_image.py ' + current_image_name
+    print(command)
+    os.system(command)
 
     counter = counter + 1
     

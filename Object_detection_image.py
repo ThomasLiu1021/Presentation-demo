@@ -121,9 +121,9 @@ IMAGE_TEMP = os.path.splitext(IMAGE_NAME)
 output_path_to_image = os.path.join(CWD_PATH,OUTPUT_FOLDER,IMAGE_TEMP[0] + "_detection" + IMAGE_TEMP[1])
 cv2.imwrite(output_path_to_image,image)
 
-
+cv2.imshow('Object detector', image)
 # Press any key to close the image
-cv2.waitKey(0)
+cv2.waitKey(5000)
 
 # Clean up
 cv2.destroyAllWindows()
